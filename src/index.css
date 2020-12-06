@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Sunshine";
+  src: local("Sunshine"),
+    url("./fonts/Sunshine.ttf") format("truetype");
+  font-weight: normal;
+}
