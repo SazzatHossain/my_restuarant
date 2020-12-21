@@ -12,6 +12,8 @@ export const BodyContent = styled.div`
   padding-top: 130px;
   padding-bottom: 100px;
   text-align: center;
+  margin-top: 80px;
+
   /* position: relative; */
 `;
 export const P = styled.p`
@@ -36,6 +38,7 @@ export const Button = styled.div`
   border: 2px solid #ffa742;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
 
   &:hover {
     background-color: #ffa742;

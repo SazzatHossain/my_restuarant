@@ -12,6 +12,8 @@ const Body = () => {
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
+            height: "auto",
+            width:"100%"
           }}
         >
           <Text style={{ color: "#fff" }}>Welcome</Text>
@@ -58,7 +60,7 @@ const Body = () => {
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "190px"
+            height: "190px",
           }}
         ></BodyContent>
       </Main>
